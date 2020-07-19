@@ -9,7 +9,7 @@ En el siguiente informe se dará a conocer las respuestas a las preguntas más r
 
 ### Objetivo General.
 
-El presente trabajo tiene como objetivo o propósito general conocer el funcionamiento, del Cloud computing en FRED utilizando Node-Red, identificando sus características principales y el uso de esta.
+Conocer el funcionamiento, del Cloud computing en FRED utilizando Node-Red, identificando sus características principales y el uso de esta.
 
 ### Objetivos específicos 
 
