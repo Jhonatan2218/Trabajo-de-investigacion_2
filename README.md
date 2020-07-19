@@ -19,7 +19,7 @@ Conocer las ventajas y desventajas de Cloud computing en la plataforma de FRED.
 
 Ejecutar un ejemplo elaborado en FRED que consulte el clima en un servicio remoto, así mismo explicar el funcionamiento de este.
 
-Identificar las principales características de SaaS, PaaS e IaaS.
+
 
 ### Estado del Arte.
 
