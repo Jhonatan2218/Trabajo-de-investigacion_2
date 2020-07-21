@@ -11,11 +11,13 @@ En el siguiente informe se dará a conocer las respuestas a las preguntas más r
 ### 2 Objetivos.
 #### Objetivo General
 
-Conocer el funcionamiento, del Cloud computing en FRED utilizando Node-Red, identificando sus características principales y el uso de esta.
+Conocer el funcionamiento del Cloud Computing en FRED utilizando Node-Red, identificando sus características principales para poder implementarlas en un ejemplo.
 
 #### Objetivos específicos 
 
-•	Explicar el significado de Cloud Computing. Explicar: ¿En qué consiste el Cloud Computing?
+•	Investigar el significado de Cloud Computing. 
+
+•	Explicar: ¿En qué consiste el Cloud Computing?
 
 •	Conocer las ventajas y desventajas de Cloud Computing en la plataforma de FRED.
 
