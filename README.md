@@ -4,7 +4,7 @@ Trabajo de investigación-Segundo parcial
 
 ### Cloud computing con Node-Red
 
-### 1. Planteamiento del problema.
+### 1 Planteamiento del problema.
 
 En el siguiente informe se dará a conocer las respuestas a las preguntas más recurrentes con respecto al la plataforma de FRED. Actualmente estamos sufriendo una transformación en la que los dispositivos se comunican con dispositivos, y dichas comunicaciones están creando nuevos modelos de negocio, productos y compañías. Aquí es donde aparece el concepto de Cloud Computing, ya que las PaaS funcionan sobre entornos Cloud. La Computación en la Nube se encuentra dentro de las Tecnologías Verdes, que hacen un uso eficiente de los recursos computacionales minimizando el impacto ambiental, maximizando su viabilidad económica, asegurando deberes sociales y promoviendo el reciclaje computacional. En los últimos años la información se ha convertido en uno de los recursos más valiosos para la economía y la vida cotidiana. Es por esto, que el poseerla es algo sumamente importante. Es necesario, que este esté disponible en cualquier momento o lugar de manera rápida, que sea fácil de compartir y que se pueda adaptar a nuestros requerimientos. Aquí se tratarán aspectos generales del tema, como la definición, tipos y características principales. Además, se presentarán ventajas y desventajas, de modo que cada quien pueda comprobar la eficiencia del Cloud Computing en la plataforma de FRED.
 
@@ -22,15 +22,15 @@ Ejecutar un ejemplo elaborado en FRED que consulte el clima en un servicio remot
 
 
 
-### 3.Estado del Arte.
+### 3 Estado del Arte.
 
-### Node-RED 
+#### Node-RED 
 También proporciona un navegador basado editor de flujo, nos permite interconectar dispositivos de hardware distintos y servicios en línea a través de una interfaz sencilla mediante soluciones software. Michael Blackstock y Rodger Lea en su artículo llamado “Hacia una plataforma de flujo de datos distribuidos para la web de Cosas (nodo distribuido-RED)” en el año 2014, nos menciona que muchos escenarios comunes de IoT en áreas como el hogar y la industria, automatización, inteligencia empresarial en tiempo real y espacios interactivos requieren integración con servicios en línea y (casi) en tiempo real detección y actuación. Si bien es posible crear en tiempo real aplicaciones interactivas de IoT que usan herramientas de programación tradicionales, puede ser difícil, requerir que los desarrolladores aprendan nuevos protocolos. [5]
 
 Si bien las plataformas de flujo de datos han demostrado ser útiles por sí mismas, muchos de los escenarios de IoT requieren la coordinación de los recursos informáticos. alojado en cosas y servidores a través de Internet alojado en la nube, puertas de enlace y en el borde en dispositivos inteligentes. Dispositivos con los sensores conectados pueden cambiar las lecturas de sensores sin procesar para enviar eventos de "presencia" por ejemplo. Las puertas de enlace pueden agregar datos desde varios sensores y realizar un procesamiento de datos simple, los sistemas basados en la nube pueden conectarse a servicios en línea en tiempo real acceso a canales de redes sociales y alertas como el correo electrónico y SMS.
 Creemos que al proporcionar un flujo de datos distribuido tiempo de ejecución para el IoT donde los flujos de datos se pueden alojar en una variedad de las plataformas, los desarrolladores pueden utilizarlas más fácilmente recursos informáticos en toda la red [5]. El objetivo de esta investigación es de conectar un flujo de datos enviados hacia una distinta plataforma utilizando Node-Red, es de gran utilidad para nuestra investigación. Node- RED además nos da la posibilidad de generar nuevos nodos en función de nuestras necesidades.
 
-### FRED Cloud
+#### FRED Cloud
 
 La información es enviada al servicio en la nube de FRED y el mismo se puede almacenar en base de datos local (MongoDB). Esta información puede ser recuperado de la base de datos en el momento del requerimiento, es decir para uso futuro. “Un concepto de IoT para humanos basados en la región Detección utilizando sensores PIR y FRED Cloud”, este artículo escrito por Naba Krushna Sabat, Santos Kumar Das, Biswa Ranjan Senapati, Umesh Chandra Pati escrito en el año 2019, con el objetivo de mejorar la vigilancia utilizando sensores de proximidad y los datos obtenidos enviarlos por cloud FRED y el mismo se puede almacenar en base de datos local (MongoDB). La seguridad y la vigilancia son un factor importante jugando en el escenario actual. Para que diferentes tipos de Se proponen técnicas. El sensor PIR es un detective de movimiento sensor también utilizado para detectar y alertar la presencia de objetos en una región particular cubierta por la zona del sensor llamado campo de visión (FoV). En otras palabras, se puede decir que proporciona seguridad y vigilancia de esa zona [6].
 
@@ -39,7 +39,7 @@ Internet of Thing (IoT) también tiene un factor de influencia en vida cotidiana
 Nodo-red es usado para diseño de front-end con la ayuda de FRED (front-end para el nodo rojo), FRED gestiona instancias para el nodo rojo para múltiples usuarios en la nube. Este artículo es de gran utilidad ya que se relaciona bastante con nuestro tema de investigación, el uso de sensores cada vez se vuelve más común y el envío de datos debe hacerse de manera más rápida y sin cables, ya que dicha información debe llegar a lugares muy lejanos y así mismo debe ser entregada de manera muy rápida, he aquí la gran importancia del Cloud computing. La computación en nube será, con toda probabilidad, el motor de la computación del futuro.
 
 ### 4. Marco Teorico
-### Concepto de Cloud Computing
+#### Concepto de Cloud Computing
 
 Hace muchos años ya se introdujeron conceptos de Cloud Computing esto por John McCarthy en 1960, quien dijo en un discurso que “Algún día la computación podrá ser organizada como un servicio público” y haciendo una comparación con lo ocurrido en la distribución eléctrica a comienzos del siglo XX donde las grandes empresas tenían su propio generador de energía, ahora las empresas grandes constan de sus servidores, clúster o supercomputadoras [1]
 
@@ -48,7 +48,7 @@ Según la IEEE Computer Society define al Cloud Computing como: “Un paradigma 
 
 En otras palabras, la definición de cloud computing es ofrecer servicios a través de la conectividad y gran escala de Internet. La computación en la nube democratiza el acceso a recursos de software de nivel internacional, pues es una aplicación de software que atiende a diversos clientes. Eso proporciona a las empresas mayor flexibilidad en relación a sus datos e informaciones, que se pueden acceder en cualquier lugar y hora, siendo esencial para empresas con sedes alrededor del mundo o en distintos ambientes de trabajo. Con un mínimo de gestión, todos los elementos de software de la computación en la nube pueden ser dimensionados bajo demanda, solo se necesita conexión a Internet.
 
-### Internet of Things.
+#### Internet of Things.
 
 El término “Internet de las Cosas” (IoT) fue empleado por primera vez en 1999 por el pionero británico Kevin Ashton para describir un sistema en el cual los objetos del mundo físico se podían conectar a Internet por medio de sensores. En marzo de 2015, el Comité de Arquitectura de Internet (IAB) dio a conocer un documento para guiar la creación de redes de objetos inteligentes (RFC 7452),39 que describe un marco de cuatro modelos de comunicación comunes que utilizan los dispositivos de la IoT. En la discusión siguiente se presenta este marco y se explican las principales características de cada modelo. Las aplicaciones de IoT (Internet of Things) se han propagado de manera considerable en el sector industrial y su tecnología se ha utilizado durante décadas.
 
