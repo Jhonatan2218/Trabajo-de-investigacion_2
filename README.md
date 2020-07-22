@@ -67,7 +67,7 @@ Las tecnologías que soportan IoT, son muy amplias y su evolución constante. De
 
 #### Observaciones
 El servidor web nos proporciona la temperatura en grados kelvin, por lo que la temperarura de -273.15°k sera 0°c.
-#### Ejemplo del Clima 
+### Ejemplo del Clima 
 El siguiente ejemplo consiste en consultar el clima una determinada parte del mundo utilizando node-red en la plataforma FRED.
 #### Nodos utilizados
 Los nodos utilizados en este ejemplo son los siguiente:
