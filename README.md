@@ -60,6 +60,7 @@ El Internet de las cosas (IoT) se puede definir como una red altamente intercone
 Las tecnologías que soportan IoT, son muy amplias y su evolución constante. Debido a la revolución de internet que ha llevado a la interconexión entre las personas en una escala sin precedentes. Acelerando de esta manera la revolución que será la interconexión de los objetos para crear un entorno inteligente. Solo en el 2011, 9 millones de dispositivos se encontraban interconectados a nivel mundial, generando como expectativa la interconexión de 24 mil millones de dispositivos en el 2020. [4]
 
 ### 5. DIAGRAMAS
+![](Imagenes/Diagrama.png)
 
 ### 6. MAPA DE VARIABLES
 
@@ -86,17 +87,18 @@ Esta API basada en HTTP se puede utilizar para administrar de forma remota el ti
 La API obtenidad de Open Weather que va ser lo que necesitamos para poder usar el servicio web. 
 
 La clave API la ingresaremos en el nodo de “http request” en la parte de URL:
-
+![](Imagenes/Nodo%20Request.png)
 El siguiente nodo será Change:
+![](Imagenes/Nodo%20Change.png)
 
 Los nodos se comunican por medio de msg por lo cual es primordial poner eso al inicio de la petición más la petición que deseamos observar.
 
 Por ultimo el nodo text servirá para imprimir los mensajes para clasificar la información:
-
+![](Imagenes/Nodo%20Text.png)
 En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo con el nodo change se realiza la conexión entre ello para imprimirlos como uno solo.
 
 #### 7.1.3 Reusltados
-
+![](Imagenes/Resultado.png).
 
 ### 8. CONCLUSIONES
 •	La herramienta de Node-RED puede ser utilizada para grandes proyectos pues da variedad de nodos que pueden ser utilizadas o adaptadas a nuestras necesidades incluyendo que te da la posibilidad de crear tus propios nodos y liberarlos para que otras personas los puedan utilizar.
