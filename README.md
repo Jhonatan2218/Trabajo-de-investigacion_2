@@ -59,7 +59,7 @@ El Internet de las cosas (IoT) se puede definir como una red altamente intercone
 
 Las tecnologías que soportan IoT, son muy amplias y su evolución constante. Debido a la revolución de internet que ha llevado a la interconexión entre las personas en una escala sin precedentes. Acelerando de esta manera la revolución que será la interconexión de los objetos para crear un entorno inteligente. Solo en el 2011, 9 millones de dispositivos se encontraban interconectados a nivel mundial, generando como expectativa la interconexión de 24 mil millones de dispositivos en el 2020. [4]
 
-### 5, DIAGRAMAS
+### 5. DIAGRAMAS
 
 ### 6. MAPA DE VARIABLES
 
