@@ -87,14 +87,17 @@ Esta API basada en HTTP se puede utilizar para administrar de forma remota el ti
 La API obtenidad de Open Weather que va ser lo que necesitamos para poder usar el servicio web. 
 
 La clave API la ingresaremos en el nodo de “http request” en la parte de URL:
+
 ![](Imagenes/Nodo%20Request.png)
 
 El siguiente nodo será Change:
+
 ![](Imagenes/Nodo%20Change.png)
 
 Los nodos se comunican por medio de msg por lo cual es primordial poner eso al inicio de la petición más la petición que deseamos observar.
 
 Por ultimo el nodo text servirá para imprimir los mensajes para clasificar la información:
+
 ![](Imagenes/Nodo%20Text.png)
 
 En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo con el nodo change se realiza la conexión entre ello para imprimirlos como uno solo.
@@ -111,4 +114,4 @@ En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo co
 
 ### 11. BIBLIOGRAFÍA
 
-### 12. Anexos
+### 12. ANEXOS
