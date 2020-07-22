@@ -1,0 +1,255 @@
+[
+    {
+        "id": "8886f7db.ca4d68",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f8b25e2f.c5bb4",
+        "type": "http request",
+        "z": "8886f7db.ca4d68",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "http://api.openweathermap.org/data/2.5/weather?q=Madrid&APPID=0f05592b05c317d75c06248b3e2e6bfe",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 410,
+        "y": 240,
+        "wires": [
+            [
+                "d640663.4449398",
+                "62cbcc0a.a81604",
+                "2394096.f064df6",
+                "99e2c99.cb45238"
+            ]
+        ]
+    },
+    {
+        "id": "1cf1f963.6f1127",
+        "type": "inject",
+        "z": "8886f7db.ca4d68",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "f8b25e2f.c5bb4"
+            ]
+        ]
+    },
+    {
+        "id": "a93b3ac.53584c8",
+        "type": "ui_text",
+        "z": "8886f7db.ca4d68",
+        "group": "945da178.2c2d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 690,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d640663.4449398",
+        "type": "change",
+        "z": "8886f7db.ca4d68",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 320,
+        "wires": [
+            [
+                "abdd7323.9de5a"
+            ]
+        ]
+    },
+    {
+        "id": "62cbcc0a.a81604",
+        "type": "change",
+        "z": "8886f7db.ca4d68",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.main.humidity",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 380,
+        "wires": [
+            [
+                "a93b3ac.53584c8"
+            ]
+        ]
+    },
+    {
+        "id": "2394096.f064df6",
+        "type": "change",
+        "z": "8886f7db.ca4d68",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 120,
+        "wires": [
+            [
+                "e690c8e6.ccd038"
+            ]
+        ]
+    },
+    {
+        "id": "e690c8e6.ccd038",
+        "type": "ui_text",
+        "z": "8886f7db.ca4d68",
+        "group": "945da178.2c2d",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Ciudad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 690,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "99e2c99.cb45238",
+        "type": "change",
+        "z": "8886f7db.ca4d68",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.sys.country",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 180,
+        "wires": [
+            [
+                "ef1b8c1e.6e562"
+            ]
+        ]
+    },
+    {
+        "id": "ef1b8c1e.6e562",
+        "type": "ui_text",
+        "z": "8886f7db.ca4d68",
+        "group": "945da178.2c2d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "País",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 680,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "abdd7323.9de5a",
+        "type": "ui_gauge",
+        "z": "8886f7db.ca4d68",
+        "name": "",
+        "group": "945da178.2c2d",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Temperatura",
+        "label": "°k",
+        "format": "{{value}}",
+        "min": "-273.15",
+        "max": "1848",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 690,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "945da178.2c2d",
+        "type": "ui_group",
+        "z": "",
+        "name": "Clima",
+        "tab": "fb0ea6c7.c1a1c8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fb0ea6c7.c1a1c8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Trabajo de investigación",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
