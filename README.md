@@ -76,7 +76,7 @@ Los nodos utilizados en este ejemplo son los siguiente:
 
    •	Change: Solicitar un dato a la página web
 
-   •	Http in: Ingresar la página web que se va utilizar
+   •	Http Request: Ingresar la página web que se va utilizar
 
    •	Text: Imprimir los resultados en otra página web.
 
