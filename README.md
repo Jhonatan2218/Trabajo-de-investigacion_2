@@ -2,18 +2,18 @@
 
 Trabajo de investigación-Segundo parcial
 
-### Cloud computing con Node-Red
+## Cloud computing con Node-Red
 
-### 1 Planteamiento del problema.
+### 1 PLANTEAMIENTO DEL PROBLEMA
 
 En el siguiente informe se dará a conocer las respuestas a las preguntas más recurrentes con respecto al la plataforma de FRED. Actualmente estamos sufriendo una transformación en la que los dispositivos se comunican con dispositivos, y dichas comunicaciones están creando nuevos modelos de negocio, productos y compañías. Aquí es donde aparece el concepto de Cloud Computing, ya que las PaaS funcionan sobre entornos Cloud. La Computación en la Nube se encuentra dentro de las Tecnologías Verdes, que hacen un uso eficiente de los recursos computacionales minimizando el impacto ambiental, maximizando su viabilidad económica, asegurando deberes sociales y promoviendo el reciclaje computacional. En los últimos años la información se ha convertido en uno de los recursos más valiosos para la economía y la vida cotidiana. Es por esto, que el poseerla es algo sumamente importante. Es necesario, que este esté disponible en cualquier momento o lugar de manera rápida, que sea fácil de compartir y que se pueda adaptar a nuestros requerimientos. Aquí se tratarán aspectos generales del tema, como la definición, tipos y características principales. Además, se presentarán ventajas y desventajas, de modo que cada quien pueda comprobar la eficiencia del Cloud Computing en la plataforma de FRED.
 
-### 2 Objetivos.
+### 2 OBJETIVOS
 #### Objetivo General
 
 Conocer el funcionamiento del Cloud Computing en FRED utilizando Node-Red, identificando sus características principales para poder implementarlas en un ejemplo.
 
-#### Objetivos específicos 
+#### Objetivos Específicos 
 
 •	Investigar el significado de Cloud Computing. 
 
@@ -23,7 +23,7 @@ Conocer el funcionamiento del Cloud Computing en FRED utilizando Node-Red, ident
 
 •	Ejecutar un ejemplo elaborado en FRED que consulte el clima en un servicio remoto, así mismo explicar el funcionamiento de este.
 
-### 3 Estado del Arte.
+### 3 ESTADO DEL ARTE
 
 #### Node-RED 
 También proporciona un navegador basado editor de flujo, nos permite interconectar dispositivos de hardware distintos y servicios en línea a través de una interfaz sencilla mediante soluciones software. Michael Blackstock y Rodger Lea en su artículo llamado “Hacia una plataforma de flujo de datos distribuidos para la web de Cosas (nodo distribuido-RED)” en el año 2014, nos menciona que muchos escenarios comunes de IoT en áreas como el hogar y la industria, automatización, inteligencia empresarial en tiempo real y espacios interactivos requieren integración con servicios en línea y (casi) en tiempo real detección y actuación. Si bien es posible crear en tiempo real aplicaciones interactivas de IoT que usan herramientas de programación tradicionales, puede ser difícil, requerir que los desarrolladores aprendan nuevos protocolos. [5]
@@ -39,7 +39,7 @@ Internet of Thing (IoT) también tiene un factor de influencia en vida cotidiana
 
 Nodo-red es usado para diseño de front-end con la ayuda de FRED (front-end para el nodo rojo), FRED gestiona instancias para el nodo rojo para múltiples usuarios en la nube. Este artículo es de gran utilidad ya que se relaciona bastante con nuestro tema de investigación, el uso de sensores cada vez se vuelve más común y el envío de datos debe hacerse de manera más rápida y sin cables, ya que dicha información debe llegar a lugares muy lejanos y así mismo debe ser entregada de manera muy rápida, he aquí la gran importancia del Cloud computing. La computación en nube será, con toda probabilidad, el motor de la computación del futuro.
 
-### 4. Marco Teorico
+### 4 MARCO TEÓRICO
 #### Concepto de Cloud Computing
 
 Hace muchos años ya se introdujeron conceptos de Cloud Computing esto por John McCarthy en 1960, quien dijo en un discurso que “Algún día la computación podrá ser organizada como un servicio público” y haciendo una comparación con lo ocurrido en la distribución eléctrica a comienzos del siglo XX donde las grandes empresas tenían su propio generador de energía, ahora las empresas grandes constan de sus servidores, clúster o supercomputadoras [1]
@@ -58,3 +58,17 @@ Una de las características comunes de IoT es que los objetos deben estar “ins
 El Internet de las cosas (IoT) se puede definir como una red altamente interconectada de entidades heterogéneas, tales como, etiquetas, sensores, dispositivos embebidos, dispositivos portátiles, etc., que interactúan y se comunican entre sí en tiempo real. IoT revolucionará la manera en que las personas y las organizaciones interactúan con el mundo físico, la interacción con dispositivos domésticos, automóviles, plantas industriales, etc., sufrirá grandes modificaciones. También permitirá que muchos servicios como salud, educación y gestión de recursos, puedan ser mejorados para comodidad del cliente. [3]
 
 Las tecnologías que soportan IoT, son muy amplias y su evolución constante. Debido a la revolución de internet que ha llevado a la interconexión entre las personas en una escala sin precedentes. Acelerando de esta manera la revolución que será la interconexión de los objetos para crear un entorno inteligente. Solo en el 2011, 9 millones de dispositivos se encontraban interconectados a nivel mundial, generando como expectativa la interconexión de 24 mil millones de dispositivos en el 2020. [4]
+
+### 5 DIAGRAMAS
+
+### 6 MAPA DE VARIABLES
+
+### 7 EXPLICACIÓN DEL CÓDIGO FUENTE
+
+### 8 CONCLUSIONES
+
+### 9 RECOMENDACIONES
+
+### 10. CRONOGRAMA
+
+### 11. BIBLIOGRAFÍA
