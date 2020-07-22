@@ -67,9 +67,9 @@ Las tecnologías que soportan IoT, son muy amplias y su evolución constante. De
 
 #### Observaciones
 El servidor web nos proporciona la temperatura en grados kelvin, por lo que la temperarura de -273.15°k sera 0°c.
-### Ejemplo del Clima 
+### 7.1 Ejemplo del Clima 
 El siguiente ejemplo consiste en consultar el clima una determinada parte del mundo utilizando node-red en la plataforma FRED.
-#### Nodos utilizados
+#### 7.1.1 Nodos utilizados
 Los nodos utilizados en este ejemplo son los siguiente:
 
    •	Inject: Para empezar el programa
@@ -81,7 +81,7 @@ Los nodos utilizados en este ejemplo son los siguiente:
    •	Text: Imprimir los resultados en otra página web.
 
 
-#### API HTTP de Administrador
+#### 7.1.2 API HTTP de Administrador
 Esta API basada en HTTP se puede utilizar para administrar de forma remota el tiempo de ejecución. Lo utiliza el editor Node-RED y la herramienta de administración de línea de comandos.
 La API obtenidad de Open Weather que va ser lo que necesitamos para poder usar el servicio web. 
 
@@ -95,7 +95,7 @@ Por ultimo el nodo text servirá para imprimir los mensajes para clasificar la i
 
 En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo con el nodo change se realiza la conexión entre ello para imprimirlos como uno solo.
 
-#### Reusltados
+#### 7.1.3 Reusltados
 
 
 ### 8. CONCLUSIONES
