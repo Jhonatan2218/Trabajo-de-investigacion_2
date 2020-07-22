@@ -65,7 +65,41 @@ Las tecnologías que soportan IoT, son muy amplias y su evolución constante. De
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
+#### Observaciones
+El servidor web nos proporciona la temperatura en grados kelvin, por lo que la temperarura de -273.15°k sera 0°c.
+
+El siguiente ejemplo consiste en consultar el clima una determinada parte del mundo utilizando node-red en la plataforma FRED.
+#### Nodos utilizados
+Los nodos utilizados en este ejemplo son los siguiente:
+
+   •	Inject: Para empezar el programa
+
+   •	Change: Solicitar un dato a la página web
+
+   •	Http in: Ingresar la página web que se va utilizar
+
+   •	Text: Imprimir los resultados en otra página web.
+
+
+#### API HTTP de Administrador
+Esta API basada en HTTP se puede utilizar para administrar de forma remota el tiempo de ejecución. Lo utiliza el editor Node-RED y la herramienta de administración de línea de comandos.
+La API obtenidad de Open Weather que va ser lo que necesitamos para poder usar el servicio web. 
+
+La clave API la ingresaremos en el nodo de “http request” en la parte de URL:
+
+El siguiente nodo será Change:
+
+Los nodos se comunican por medio de msg por lo cual es primordial poner eso al inicio de la petición más la petición que deseamos observar.
+
+Por ultimo el nodo text servirá para imprimir los mensajes para clasificar la información:
+
+En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo con el nodo change se realiza la conexión entre ello para imprimirlos como uno solo.
+
+#### Reusltados
+
+
 ### 8. CONCLUSIONES
+•	La herramienta de Node-RED puede ser utilizada para grandes proyectos pues da variedad de nodos que pueden ser utilizadas o adaptadas a nuestras necesidades incluyendo que te da la posibilidad de crear tus propios nodos y liberarlos para que otras personas los puedan utilizar.
 
 ### 9. RECOMENDACIONES
 
