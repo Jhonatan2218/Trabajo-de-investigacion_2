@@ -119,6 +119,8 @@ En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo co
 
 ### 10. CRONOGRAMA
 
+![](Imagenes/Calendario.png)
+
 ### 11. BIBLIOGRAFÍA
 
 ### 12. ANEXOS
