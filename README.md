@@ -40,6 +40,21 @@ Internet of Thing (IoT) también tiene un factor de influencia en vida cotidiana
 Nodo-red es usado para diseño de front-end con la ayuda de FRED (front-end para el nodo rojo), FRED gestiona instancias para el nodo rojo para múltiples usuarios en la nube. Este artículo es de gran utilidad ya que se relaciona bastante con nuestro tema de investigación, el uso de sensores cada vez se vuelve más común y el envío de datos debe hacerse de manera más rápida y sin cables, ya que dicha información debe llegar a lugares muy lejanos y así mismo debe ser entregada de manera muy rápida, he aquí la gran importancia del Cloud computing. La computación en nube será, con toda probabilidad, el motor de la computación del futuro.
 
 ### 4. MARCO TEÓRICO
+####FRED como plataforma de aplicación para node-red.
+
+
+Esta es una plataforma que permite la edición y administración de aplicaciones de node red en la nube que nos permite hacer uso de la misma sin la necesidad de tener un software instalado localmente, además de ofrecer una variedad de servicios que la hacen una plataforma bastante capaz y versátil. Estos servicios en muchos de los casos son beneficios asociados a una cuenta que se basa en un sistema de suscripción pagada de forma mensual.
+
+
+####Tipos de cuentas.
+Los beneficios que se ofrecen en la plataforma pueden variar dependiendo de la cuenta a la que el usuario se haya suscrito, de las cuales se ofrecen las siguientes opciones:
+
+
+-	FRED short. – esta es la opción gratuita de la plataforma y nos permite utilizar la plataforma FRED como una especie de node-red en la nube. Sin embargo, esta versión presenta bastantes limitaciones para aplicaciones en las que se enfoca esta interfaz visual de flujos.
+-	FRED Tall. – en esta opción inicial se nos ofrece un limite de 150 nodos y cierta capacidad de memoria en la nube, capacidad de ejecución las 24 horas, servidores compartidos, asistencia pública para nuestros tableros (esto permite a la comunidad de opensource software que también interactuar con nuestro proyecto para dar asistencia), asistencia de proyectos vía email, servicio de MQTT (protocolo para conexión Machine to Machine) y la aplicación FRED para un dispositivo.
+-	FRED grande. – aumenta la capacidad de los nodos y su memoria en línea, se mantiene la capacidad de ejecución 24/7, servidores compartidos, y ambos tipos de asistencias y el servicio MQTT que ahora tiene un limite de 25 clientes en relación a los 5 del paquete tall. Aquí la mayor diferencia es la adición del servicio influxDB como una base de datos en línea que ofrece dos días de retención de datos y una capacidad de 50 MB.
+-	FRED venti. – aquí podemos acceder a la misma cantidad de beneficios que en la opción anterior, pero vemos un considerable aumento en la cantidad de memoria disponible, cantidad de nodos, usuarios y capacidad para conectar dispositivos. Si se considera utilizar la plataforma para proyectos de IoT, esta opción sería la más completa para conectar tanto dispositivos como usuarios al mismo tiempo en la nube.
+
 #### Concepto de Cloud Computing
 
 Hace muchos años ya se introdujeron conceptos de Cloud Computing esto por John McCarthy en 1960, quien dijo en un discurso que “Algún día la computación podrá ser organizada como un servicio público” y haciendo una comparación con lo ocurrido en la distribución eléctrica a comienzos del siglo XX donde las grandes empresas tenían su propio generador de energía, ahora las empresas grandes constan de sus servidores, clúster o supercomputadoras [1]
