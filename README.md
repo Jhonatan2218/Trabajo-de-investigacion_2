@@ -138,6 +138,21 @@ En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo co
 
 ### 11. BIBLIOGRAFÍA
 
+Adriana Marcela Cornejo Orellana, C. F. (2015). Análisis, Diseño e Implementación de Cloud Computing para una Red de Voz sobre IP”. (UNIVERSIDAD POLITÉCNICA SALESIANA SEDE CUENCA) Recuperado el 18 de 07 de 2020, de https://dspace.ups.edu.ec/handle/123456789/7921
+
+Martin, L. (17 de Abril de 2019). ¿Què es MQTT? Su importancia como protocolo IOT. Obtenido de Luis Llamas: https://www.luisllamas.es/que-es-mqtt-su-importancia-como-protocolo-iot/
+
+Michael Blackstock, R. L. (octubre de 2014). Toward a Distributed Data Flow Platform for the Web of Things (Distributed Node-RED). (University of British Columbia) Recuperado el 22 de julio de 2020, de https://www.researchgate.net/publication/300757723_Toward_a_Distributed_Data_Flow_Platform_for_the_Web_of_Things_Distributed_Node-RED
+
+Naba Krushna Sabat, U. C. (2019). An IoT Concept for Region Based Human Detection Using PIR Sensors and FRED Cloud. (Rourkela) Recuperado el 18 de 07 de 2020, de https://ieeexplore.ieee.org/document/8938286
+
+NIÑO, D. L. (2015). PANORAMA DE APLICACIÓN DE INTERNET. (UNIVERSIDAD SANTO TOMÁS) Recuperado el 18 de 7 de 2020, de https://repository.usta.edu.co/bitstream/handle/11634/672/Panorama%20de%20aplicacion%20de%20internet%20de%20las%20cosas.pdf?sequence=1&isAllowed=y
+
+PDAControl. (06 de Junio de 2017). FRED front-end Node-RED en la Nube. Obtenido de PDAControl: http://pdacontroles.com/fred-front-end-node-red-en-la-nube/
+
+Porcides, A. C. (junio de 2016). ANÁLISIS DE DATOS GEO-ESPACIALES UTILIZANDO LA PLATAFORMA BLUEMIX. (Universidad Autónoma de Madrid) Recuperado el 18 de 07 de 2020, de https://repositorio.uam.es/handle/10486/676947
+
+
 ### 12. ANEXOS
 #### 12.1. Manual de Usuario
 
