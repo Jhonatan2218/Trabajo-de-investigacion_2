@@ -124,7 +124,7 @@ En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo co
 ### 8. CONCLUSIONES
 •	La herramienta de Node-RED puede ser utilizada para grandes proyectos pues da variedad de nodos que pueden ser utilizadas o adaptadas a nuestras necesidades incluyendo que te da la posibilidad de crear tus propios nodos y liberarlos para que otras personas los puedan utilizar.
 
-• Se cumplió nuestro objetivos de nuestra investigacion se ha logrado el desplieguede de la informacion climatica en la nube de FRED como un servicion remoto.
+• Se cumplió nuestros objetivos de nuestra investigación se ha logrado el despliegue de la información climática en la nube de FRED como un servicio remoto.
 
 • La mayoría de los avances tecnológicos necesarios para el desarrollo de IoT se han desarrollado de forma satisfactoria en esta plataforma, de tal manera que algunos fabricantes y entidades ya han empezado a implementar las IoT.
 
