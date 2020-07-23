@@ -55,7 +55,7 @@ Los beneficios que se ofrecen en la plataforma pueden variar dependiendo de la c
 -	FRED grande. – aumenta la capacidad de los nodos y su memoria en línea, se mantiene la capacidad de ejecución 24/7, servidores compartidos, y ambos tipos de asistencias y el servicio MQTT que ahora tiene un limite de 25 clientes en relación a los 5 del paquete tall. Aquí la mayor diferencia es la adición del servicio influxDB como una base de datos en línea que ofrece dos días de retención de datos y una capacidad de 50 MB.
 -	FRED venti. – aquí podemos acceder a la misma cantidad de beneficios que en la opción anterior, pero vemos un considerable aumento en la cantidad de memoria disponible, cantidad de nodos, usuarios y capacidad para conectar dispositivos. Si se considera utilizar la plataforma para proyectos de IoT, esta opción sería la más completa para conectar tanto dispositivos como usuarios al mismo tiempo en la nube.
 
-![](Imagenes/https://github.com/Jhonatan2218/Trabajo-de-investigacion_2/blob/master/Imagenes/cuentas%20fred.png?raw=true)
+![](https://github.com/Jhonatan2218/Trabajo-de-investigacion_2/blob/master/Imagenes/cuentas%20fred.png?raw=true)
 
 En este caso haremos uso de la versión short de la plataforma pues será suficiente para observar a detalle la plataforma y realizar proyectos en la misma. La cuenta gratuita es una gran manera de probar FRED, es decir, la nube Nodo-RED, pero está limitado por los recursos y sólo tendrá una duración de 24 horas después de que finalice la sesión.
 
