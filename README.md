@@ -55,6 +55,17 @@ Los beneficios que se ofrecen en la plataforma pueden variar dependiendo de la c
 -	FRED grande. – aumenta la capacidad de los nodos y su memoria en línea, se mantiene la capacidad de ejecución 24/7, servidores compartidos, y ambos tipos de asistencias y el servicio MQTT que ahora tiene un limite de 25 clientes en relación a los 5 del paquete tall. Aquí la mayor diferencia es la adición del servicio influxDB como una base de datos en línea que ofrece dos días de retención de datos y una capacidad de 50 MB.
 -	FRED venti. – aquí podemos acceder a la misma cantidad de beneficios que en la opción anterior, pero vemos un considerable aumento en la cantidad de memoria disponible, cantidad de nodos, usuarios y capacidad para conectar dispositivos. Si se considera utilizar la plataforma para proyectos de IoT, esta opción sería la más completa para conectar tanto dispositivos como usuarios al mismo tiempo en la nube.
 
+En este caso haremos uso de la versión short de la plataforma pues será suficiente para observar a detalle la plataforma y realizar proyectos en la misma. La cuenta gratuita es una gran manera de probar FRED, es decir, la nube Nodo-RED, pero está limitado por los recursos y sólo tendrá una duración de 24 horas después de que finalice la sesión.
+
+#### MQTT service.
+
+Es un protocolo de comunicación para IoT bastante popular por su sencillez y ligereza. Ambos son condicionantes importantes dado que los dispositivos de IoT, a menudo tienen limitaciones de potencia, consumo y ancho de banda. 
+Sus siglas significan MQ Telemetry Transport, aunque en primer lugar fue conocido como Message Queing Telemetry Transport y esta basado en la pila TCP/IP como base para la comunicación. En el caso de MQTT cada conexión se mantiene abierta y se “reutiliza” en cada comunicación. Es una diferencia, por ejemplo, a una petición HTTP 1.0 donde cada transmisión se realiza a través de conexión.
+El funcionamiento del MQTT es un servicio de mensajería push con patrón publicador/suscriptor (pub-sub). Como vimos en la entrada anterior, en este tipo de infraestructuras los clientes se conectan con un servidor central denominado broker.
+Para filtrar los mensajes que son enviados a cada cliente los mensajes se disponen en topics organizados jerárquicamente. Un cliente puede publicar un mensaje en un determinado topic. Otros clientes pueden suscribirse a este topic, y el broker le hará llegar los mensajes suscritos.
+
+
+
 #### Concepto de Cloud Computing
 
 Hace muchos años ya se introdujeron conceptos de Cloud Computing esto por John McCarthy en 1960, quien dijo en un discurso que “Algún día la computación podrá ser organizada como un servicio público” y haciendo una comparación con lo ocurrido en la distribución eléctrica a comienzos del siglo XX donde las grandes empresas tenían su propio generador de energía, ahora las empresas grandes constan de sus servidores, clúster o supercomputadoras [1]
