@@ -141,9 +141,14 @@ En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo co
 
 • La mayoría de los avances tecnológicos necesarios para el desarrollo de IoT se han desarrollado de forma satisfactoria en esta plataforma, de tal manera que algunos fabricantes y entidades ya han empezado a implementar las IoT.
 
+•	La implementación de una interfaz grafica basada en flujos crea un ambiente más amigable para desarrolladores inexpertos que quieren aventurarse en el aprendizaje de las nuevas tecnologías. Se debe promover esta metodología que permite al usuario observar de forma más detallada la interacción que existe entre software y hardware. 
+
 
 ### 9. RECOMENDACIONES
+
 • Al utilizar cualquier nodo es recomendable investigar todo aquello sobre el mismo para poder sacar el máximo provecho a cada nodo.
+
+•	A pesar que implementar un proyecto basado en IoT requiere de ciertos recursos e infraestructura que no siempre están al alcance de cualquier tipo de usuario, las plataformas opensource ofrecen opciones accesibles y versátiles que hacen que este campo sea cada vez más fácil de estudiar y aplicar en diferentes áreas, ya en el ámbito laboral o académico.
 
 ### 10. CRONOGRAMA
 
