@@ -40,13 +40,13 @@ Internet of Thing (IoT) también tiene un factor de influencia en vida cotidiana
 Nodo-red es usado para diseño de front-end con la ayuda de FRED (front-end para el nodo rojo), FRED gestiona instancias para el nodo rojo para múltiples usuarios en la nube. Este artículo es de gran utilidad ya que se relaciona bastante con nuestro tema de investigación, el uso de sensores cada vez se vuelve más común y el envío de datos debe hacerse de manera más rápida y sin cables, ya que dicha información debe llegar a lugares muy lejanos y así mismo debe ser entregada de manera muy rápida, he aquí la gran importancia del Cloud computing. La computación en nube será, con toda probabilidad, el motor de la computación del futuro.
 
 ### 4. MARCO TEÓRICO
-####FRED como plataforma de aplicación para node-red.
+#### FRED como plataforma de aplicación para node-red.
 
 
 Esta es una plataforma que permite la edición y administración de aplicaciones de node red en la nube que nos permite hacer uso de la misma sin la necesidad de tener un software instalado localmente, además de ofrecer una variedad de servicios que la hacen una plataforma bastante capaz y versátil. Estos servicios en muchos de los casos son beneficios asociados a una cuenta que se basa en un sistema de suscripción pagada de forma mensual.
 
 
-####Tipos de cuentas.
+#### Tipos de cuentas.
 Los beneficios que se ofrecen en la plataforma pueden variar dependiendo de la cuenta a la que el usuario se haya suscrito, de las cuales se ofrecen las siguientes opciones:
 
 
