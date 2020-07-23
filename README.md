@@ -92,15 +92,16 @@ La clave API la ingresaremos en el nodo de “http request” en la parte de URL
 
 El siguiente nodo será Change:
 
+Los nodos se comunican por medio de msg por lo cual es primordial poner eso al inicio de la petición más la petición que deseamos observar.
+
 ![](Imagenes/Nodo%20Change.png)
 
-Los nodos se comunican por medio de msg por lo cual es primordial poner eso al inicio de la petición más la petición que deseamos observar.
 
 Por ultimo el nodo text servirá para imprimir los mensajes para clasificar la información:
 
-![](Imagenes/Nodo%20Text.png)
-
 En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo con el nodo change se realiza la conexión entre ello para imprimirlos como uno solo.
+
+![](Imagenes/Nodo%20Text.png)
 
 #### 7.1.3 Reusltados
 ![](Imagenes/Resultado.png).
@@ -108,15 +109,18 @@ En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo co
 ### 8. CONCLUSIONES
 •	La herramienta de Node-RED puede ser utilizada para grandes proyectos pues da variedad de nodos que pueden ser utilizadas o adaptadas a nuestras necesidades incluyendo que te da la posibilidad de crear tus propios nodos y liberarlos para que otras personas los puedan utilizar.
 
-•Se cumplió nuestro objetivos de nuestra investigacion se ha logrado el desplieguede de la informacion climatica en la nube de FRED como un servicion remoto.
+• Se cumplió nuestro objetivos de nuestra investigacion se ha logrado el desplieguede de la informacion climatica en la nube de FRED como un servicion remoto.
 
-•La mayoría de los avances tecnológicos necesarios para el desarrollo de IoT se han desarrollado de forma satisfactoria en esta plataforma, de tal manera que algunos fabricantes y entidades ya han empezado a implementar las IoT.
+• La mayoría de los avances tecnológicos necesarios para el desarrollo de IoT se han desarrollado de forma satisfactoria en esta plataforma, de tal manera que algunos fabricantes y entidades ya han empezado a implementar las IoT.
 
 
 ### 9. RECOMENDACIONES
+• Al utilizar cualquier nodo es recomendable investigar todo aquello sobre el mismo para poder sacar el máximo provecho a cada nodo.
 
 ### 10. CRONOGRAMA
 
 ### 11. BIBLIOGRAFÍA
 
 ### 12. ANEXOS
+#### 12.1. Manual de Usuario
+
