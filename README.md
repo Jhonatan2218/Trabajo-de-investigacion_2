@@ -126,4 +126,4 @@ En la parte de label ingresaremos la etiqueta o texto que deseamos, al unirlo co
 ### 12. ANEXOS
 #### 12.1. Manual de Usuario
 
-![](Manual%20de%20Usuario.jpg)
+![](Anexos/Manual%20de%20Usuario.jpg)
