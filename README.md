@@ -90,8 +90,6 @@ Las tecnologías que soportan IoT, son muy amplias y su evolución constante. De
 ### 5. DIAGRAMAS
 ![](Imagenes/Diagrama.png)
 
-### 6. MAPA DE VARIABLES
-
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
 #### Observaciones
